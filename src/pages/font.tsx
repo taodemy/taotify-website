@@ -1,6 +1,8 @@
 import Head from "next/head";
-
-export default function fome() {
+/**
+this page is a template to show how to use all the font styles from design system
+*/
+export default function font() {
   return (
     <>
       <Head>
