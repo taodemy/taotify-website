@@ -1,0 +1,57 @@
+@import "./design-variables.scss";
+
+.font_h1_headline_bold {
+  @include h1-headline($bold-font-weight);
+}
+
+.font_h1_headline_regular {
+  @include h1-headline($regular-font-weight);
+}
+
+.font_subtitle_bold {
+  @include subtitle($bold-font-weight);
+}
+
+.font_subtitle_regular {
+  @include subtitle($regular-font-weight);
+}
+
+.font_h2_headline {
+  @include h2-headline;
+}
+
+.font_h3_headline {
+  @include h3-headline;
+}
+
+.font_h4_headline {
+  @include h4-headline;
+}
+
+.font_h5_headline {
+  @include h5-headline;
+}
+
+.font_main_bold {
+  @include main($bold-font-weight);
+}
+
+.font_main_regular {
+  @include main($regular-font-weight);
+}
+
+.font_menu {
+  @include menu;
+}
+
+.font_additional {
+  @include additional;
+}
+
+.font_small_bold {
+  @include small($bold-font-weight);
+}
+
+.font_small_regular {
+  @include small($regular-font-weight);
+}

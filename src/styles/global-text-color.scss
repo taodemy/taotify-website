@@ -1,0 +1,21 @@
+@import "./design-variables.scss";
+
+.primary-colored-text {
+  color: $primary-color;
+}
+
+.secondary-colored-text {
+  color: $secondary-color;
+}
+
+.light-colored-text {
+  color: $light-color;
+}
+
+.dark-colored-text {
+  color: $dark-color;
+}
+
+.lightRed-colored-text {
+  color: $light-red-color;
+}

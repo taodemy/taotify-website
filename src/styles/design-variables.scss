@@ -1,0 +1,85 @@
+$primary-color: #5b99b3;
+$secondary-color: #fc5252;
+$light-color: #ffffff;
+$dark-color: #222222;
+$light-red-color: #ffa3a3;
+
+$bold-font-weight: 700;
+$regular-font-weight: 400;
+
+$montserrat: "Montserrat", sans-serif;
+$raleway: "Raleway", sans-serif;
+
+// if it's bold, then pass argument $bold-font-weight
+// otherwise $regular-font-weight
+@mixin h1-headline($font-weight) {
+  font-family: $montserrat;
+  font-weight: $font-weight;
+  font-size: 60px;
+  line-height: 73.146px;
+}
+
+@mixin subtitle($font-weight) {
+  font-family: $raleway;
+  font-weight: $font-weight;
+  font-size: 24px;
+  line-height: 38px;
+}
+
+@mixin main($font-weight) {
+  font-family: $raleway;
+  font-weight: $font-weight;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@mixin small($font-weight) {
+  font-family: $raleway;
+  font-weight: $font-weight;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+@mixin h2-headline {
+  font-family: $montserrat;
+  font-weight: $bold-font-weight;
+  font-size: 34px;
+  line-height: 44.2px;
+}
+
+@mixin h3-headline {
+  font-family: $montserrat;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 38px;
+}
+
+@mixin h4-headline {
+  font-family: $montserrat;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+@mixin h5-headline {
+  font-family: $montserrat;
+  font-weight: $bold-font-weight;
+  font-size: 16px;
+  line-height: 19.5px;
+}
+
+@mixin menu {
+  font-family: $montserrat;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@mixin additional {
+  font-family: $montserrat;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.63px;
+}
+
+
