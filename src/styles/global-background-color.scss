@@ -1,0 +1,22 @@
+@import "./design-variables.scss";
+
+.primary-colored-background {
+  background-color: $primary-color;
+}
+
+.secondary-colored-background {
+  background-color: $secondary-color;
+}
+
+.light-colored-background {
+  background-color: $light-color;
+}
+
+.dark-colored-background {
+  background-color: $dark-color;
+}
+
+.lightRed-colored-background {
+  background-color: $light-red-color;
+}
+
