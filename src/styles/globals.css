@@ -15,8 +15,123 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
+} */
+
+.priceTier {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.priceTier--Cards {
+  display: flex;
+  flex-direction: row;
+  min-width: 1170px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.borderTop-basic {
+  content: "";
+  position: absolute;
+  border-top: 4px solid #000;
+  top: 0;
+  width: 100%;
+}
+.borderTop-standard {
+  content: "";
+  position: absolute;
+  border-top: 4px solid #5b99b3;
+  top: 0;
+  width: 100%;
+}
+.borderTop-premium {
+  content: "";
+  position: absolute;
+  border-top: 4px solid #fc5252;
+  top: 0;
+  width: 100%;
+}
+
+
+
+.priceTier--Card {
+  position: relative;
+  display: flex;
+  min-width: 370px;
+  min-height: 404px;
+  padding: 0px 0px 30px 0px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  gap: 26px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  gap: 15px;
+}
+
+.title p {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.content ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 159px;
+  min-width: 102px;
+  gap: 15px;
+}
+
+.priceTier--Cards ul {
+  list-style: none;
+}
+
+.priceTier--Card-Button {
+  min-width: 150px;
+  min-height: 56px;
+  background-color: white;
+  color: #5b99b3;
+  border: 1px solid #5b99b3;
+  border-radius: 8px;
+}
+
+.priceTier--Card-Button:hover {
+  background-color: #5b99b3;
+  color: white;
+  border: 1px solid #5b99b3;
+}
+.priceTier--Card-Button:focus {
+  background-color: #5b99b3;
+  color: white;
+  border: 1px solid #5b99b3;
+}
+
+.unavailable {
+  color:rgba(34, 34, 34, 1);
+  opacity: 50%;
 }
