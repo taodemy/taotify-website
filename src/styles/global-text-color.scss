@@ -12,6 +12,11 @@
   color: $light-color;
 }
 
+.light-colored-text-with-opacity {
+  color: $light-color;
+  opacity: 0.7;
+}
+
 .dark-colored-text {
   color: $dark-color;
 }
