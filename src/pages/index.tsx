@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Head from "next/head";
 import PriceTier from "@/components/PriceTier";
 
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
       <main>
         <PriceTier />
+        <Footer/>
       </main>
     </>
   );
