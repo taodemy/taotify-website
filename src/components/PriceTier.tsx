@@ -1,7 +1,7 @@
 const PriceTier = () => {
     return (
-        <section className="priceTier">
-            <div className="priceTier--Title font_h2_headline">Choose a Tier that’s right for you</div>
+        <section className="priceTier light-colored-background">
+            <div className="priceTier--Title font_h2_headline dark-colored-text">Choose a Tier that’s right for you</div>
             <div className="priceTier--Cards">
                 {/* Basic Tier which is free */}
                 <div className="priceTier--Card priceTier--Cards-Basic dark-colored-text">
@@ -12,7 +12,7 @@ const PriceTier = () => {
                     </div>
                     <div className="content font_main_regular">
                         <ul>
-                            <li>1 Seat Available</li>
+                            <li className="dark-colored-text">1 Seat Available</li>
                             <li className="unavailable">Access to Wifi Router</li>
                             <li className="unavailable">Free Food & Coffee</li>
                         </ul>
@@ -32,8 +32,8 @@ const PriceTier = () => {
                     </div>
                     <div className="content font_main_regular">
                         <ul>
-                            <li>1 Seat Available</li>
-                            <li>Access to Wifi Router</li>
+                            <li className="dark-colored-text">1 Seat Available</li>
+                            <li className="dark-colored-text">Access to Wifi Router</li>
                             <li className="unavailable">Free Food & Coffee</li>
                         </ul>
                     </div>
@@ -52,9 +52,9 @@ const PriceTier = () => {
                     </div>
                     <div className="content font_main_regular">
                         <ul>
-                            <li>1 Seat Available</li>
-                            <li>Access to Wifi Router</li>
-                            <li>Free Food & Coffee</li>
+                            <li className="dark-colored-text">1 Seat Available</li>
+                            <li className="dark-colored-text">Access to Wifi Router</li>
+                            <li className="dark-colored-text">Free Food & Coffee</li>
                         </ul>
                     </div>
                     <button className="priceTier--Card-Button font_h5_headline">Subscribe</button>

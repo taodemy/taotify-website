@@ -8,6 +8,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  background-color: white;
 }
 
 a {
@@ -15,20 +16,21 @@ a {
   text-decoration: none;
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
-} */
+}
 
 .priceTier {
-  width: 100vw;
-  height: 100vh;
+  width: 1920px;
+  height: 508px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 60px;
+  margin-bottom: 40px;
 }
 
 .priceTier--Cards {
@@ -77,7 +79,7 @@ a {
   border-radius: 20px;
   overflow: hidden;
   gap: 26px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 10px 100px 10px rgba(96, 95, 95, 0.25);
 }
 
 .title {
