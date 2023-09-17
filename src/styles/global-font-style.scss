@@ -55,3 +55,8 @@
 .font_small_regular {
   @include small($regular-font-weight);
 }
+
+.font_navigator_logo {
+  @include subtitle(600);
+  line-height: 20px;
+}
