@@ -17,9 +17,6 @@ const Navigator = () => {
     },
     {
       name: "CONTACT US",
-    },
-    {
-      name: "SUBSCRIBE"
     }
   ];
 
@@ -31,7 +28,7 @@ const Navigator = () => {
           <ul>
             {navLinks.map((nav) => {
               return (
-              <li key={nav.name} className={`light-colored-text ${(nav.name === "SUBSCRIBE")? "font_h5_headline primary-colored-background " + style.subscribe: "font_menu"}`}>
+              <li key={nav.name} className={`light-colored-text font_menu`}>
                 <a>{nav.name}</a>
                 {
                   (nav.child) ? (
@@ -42,6 +39,7 @@ const Navigator = () => {
               );
             })}
           </ul>
+          <button className={"font_h5_headline primary-colored-background " + style.subscribe}>SUBSCRIBE</button>
         </section>
       </nav>
     </section>
