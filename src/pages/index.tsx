@@ -16,7 +16,6 @@ export default function Home() {
       <main>
         <header className={style.top_header}>
           <Navigator />
-          {/* Please put Hero Section Here, Thanks */}
         </header>
         <PriceTier />
         <Footer />
