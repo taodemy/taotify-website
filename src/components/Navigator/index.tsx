@@ -39,7 +39,7 @@ const Navigator = () => {
               );
             })}
           </ul>
-          <button className={"font_h5_headline primary-colored-background " + style.subscribe}>SUBSCRIBE</button>
+          <button className={"font_h5_headline light-colored-text primary-colored-background " + style.subscribe}>SUBSCRIBE</button>
         </section>
       </nav>
     </section>
