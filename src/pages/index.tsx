@@ -1,6 +1,8 @@
 import Footer from "@/components/Footer";
 import Head from "next/head";
 import PriceTier from "@/components/PriceTier";
+import Navigator from "@/components/Navigator";
+import style from "./index.module.scss"
 
 export default function Home() {
   return (
@@ -12,8 +14,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        <header className={style.top_header}>
+          <Navigator />
+        </header>
         <PriceTier />
-        <Footer/>
+        <Footer />
       </main>
     </>
   );
