@@ -1,0 +1,19 @@
+name: Auto Merge to Production and Deploy
+
+on:
+  schedule:
+    # This runs at 12pm every second Thursday
+    - cron: '* * * * *'
+
+jobs:
+  merge_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Automatic Merge
+      run: |
+        git checkout production
+        git merge main
+        git push origin production
