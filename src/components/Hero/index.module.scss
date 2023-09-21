@@ -76,7 +76,26 @@
           display: flex;
           align-items: center;
           gap: 34px;
-          .left_hero_button_apple {
+          .left_hero_download_button {
+            background-color: transparent;
+            border: 0;
+          }
+          .left_hero_play_button {
+            display: flex;
+            padding: 18px 34px;
+            align-items: center;
+            gap: 12px;
+            border-radius: 32px;
+            background: var(--general-light, #fff);
+            color: var(--general-primary, #5b99b3);
+            font-feature-settings: "clig" off, "liga" off;
+
+            /* H5 */
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
           }
         }
       }
@@ -90,11 +109,11 @@
       flex: 1 0 0;
       align-self: stretch;
       z-index: 2;
-      .right_hero_image{
+      .right_hero_image {
         width: 542px;
-      height: 666px;
-      background: url("../../assets/hero1Image.png"),
-        transparent 50% / cover no-repeat;
+        height: 666px;
+        background: url("../../assets/hero1Image.png"),
+          transparent 50% / cover no-repeat;
       }
     }
   }

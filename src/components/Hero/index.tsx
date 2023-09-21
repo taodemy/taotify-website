@@ -19,7 +19,7 @@ const Hero = () => {
               music with every play, like, repost and comment
             </div>
             <div className={style.left_hero_buttons}>
-              <button className={style.left_hero_button_apple}>
+              <button className={style.left_hero_download_button}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="33"
@@ -37,7 +37,7 @@ const Hero = () => {
                   />
                 </svg>
               </button>
-              <button>
+              <button className={style.left_hero_download_button}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="34"
@@ -63,7 +63,7 @@ const Hero = () => {
                   />
                 </svg>
               </button>
-              <button>play music</button>
+              <button className={style.left_hero_play_button}>PLAY MUSIC</button>
             </div>
           </div>
         </div>
