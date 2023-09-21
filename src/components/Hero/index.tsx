@@ -67,7 +67,9 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className={style.right_hero}>1afsagafa</div>
+        <div className={style.right_hero}>
+          <div className={style.right_hero_image}/>
+        </div>
       </div>
     </div>
   );

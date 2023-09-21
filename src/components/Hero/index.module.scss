@@ -13,7 +13,8 @@
   );
   .hero_container {
     display: flex;
-    width: 1280px;
+    width: 80%;
+    min-width: 1080px;
     height: 754px;
     justify-content: center;
     align-items: flex-start;
@@ -76,7 +77,6 @@
           align-items: center;
           gap: 34px;
           .left_hero_button_apple {
-            
           }
         }
       }
@@ -89,6 +89,13 @@
       align-items: center;
       flex: 1 0 0;
       align-self: stretch;
+      z-index: 2;
+      .right_hero_image{
+        width: 542px;
+      height: 666px;
+      background: url("../../assets/hero1Image.png"),
+        transparent 50% / cover no-repeat;
+      }
     }
   }
 }
