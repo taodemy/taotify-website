@@ -4,7 +4,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className={style.hero_slide}>
+    <section className={style.hero_slide}>
       <div className={style.hero_container}>
         <div className={style.backgroud_font_group}>
           <div className={style.backgroud_font}>&nbsp;UI&nbsp;MUSIC</div>
@@ -12,12 +12,12 @@ const Hero = () => {
         </div>
         <div className={style.left_hero}>
           <div className={style.left_titles}>
-            <div className={style.left_hero_title}>play</div>
-            <div className={style.left_hero_content}>
+            <h1 className={style.left_hero_title}>play</h1>
+            <p className={style.left_hero_content}>
               Be the first to hear new tracks, connect directly with fellow fans
               and your favorite artists in real time, and support the future of
               music with every play, like, repost and comment
-            </div>
+            </p>
             <div className={style.left_hero_buttons}>
               <button className={style.left_hero_download_button}>
                 <svg
@@ -71,7 +71,7 @@ const Hero = () => {
           <div className={style.right_hero_image}/>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
