@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import TriangleIcon from "@/assets/TriangleIcon.svg"
 import style from "./index.module.scss";
 
@@ -20,8 +20,20 @@ const Navigator = () => {
     }
   ];
 
+  const [untransparency, setUntransparency] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 72) {
+        setUntransparency(true);
+      } else {
+        setUntransparency(false);
+      }
+    });
+  }, [])
+
   return (
-    <section className={style.header_outer_wrapper + " dark-colored-text"}>
+    <section className={style.header_outer_wrapper + " dark-colored-text " + ((untransparency)? style.untransparency_nav: "")}>
       <nav className={style.header_inner_wrapper}>
         <section className={style.header_left_logo + " font_navigator_logo light-colored-text"}>TAOTIFY</section>
         <section className={style.header_right_nav}>
