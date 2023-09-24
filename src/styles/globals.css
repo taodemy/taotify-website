@@ -141,3 +141,74 @@ li {
   color:rgba(34, 34, 34, 1);
   opacity: 50%;
 }
+
+.Categories {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.Categories--title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  gap: 10px;
+}
+
+.Categories--cards {
+  display: flex;
+  flex-direction: row nowrap;
+  width: 1920px;
+  height: 326px;
+  gap: 30px;
+}
+
+.Categories--card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 360px;
+  height: 326px;
+  padding: 56px 36px 0px 36px;
+  border-radius: 24px;
+  gap: 30px;
+}
+
+.Categories--cards-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 190px;
+  height: 130px;
+  gap: 30px;
+}
+
+.Categories--cards-popcard-content {
+  width: 288px;
+  height: 130px;
+  gap: 30px;
+}
+
+.Categories--cards-popcard {
+  background-color: rgba(219, 132, 29, 0.1);
+}
+
+.Categories--cards-folkcard {
+  background-color: rgba(252, 82, 82, 0.1);
+}
+
+.Categories--cards-instrumentalcard {
+  background-color: rgba(91, 153, 179, 0.8);
+}
+
+.Categories--cards-rockcard {
+  background-color: rgba(192, 0, 150, 0.1);
+}
+
+.Categories--cards-jazzcard {
+  background-color: rgba(132, 196, 255, 0.1);
+}
