@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <header className={style.top_header}>
+        <header>
           <Navigator />
         </header>
         <PriceTier />
