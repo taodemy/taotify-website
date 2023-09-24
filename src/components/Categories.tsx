@@ -37,8 +37,8 @@ const Categories = () => {
             <div className="Categories--card Categories--cards-instrumentalcard">
                 <InstrumentalIcon />
                 <div className="Categories--cards-content Categories--cards-instrumentalcard-content">
-                    <h3 className="font_h3_headline dark-colored-text">Instrumental</h3>
-                    <p className="font_main_regular dark-colored-text">Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae</p>
+                    <h3 className="font_h3_headline light-colored-text">Instrumental</h3>
+                    <p className="font_main_regular light-colored-text">Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae</p>
                 </div>
             </div>
 
