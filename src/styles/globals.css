@@ -26,6 +26,7 @@ li {
   }
 }
 
+/* Price Tier section */
 .priceTier {
   width: 1920px;
   height: 508px;
@@ -37,7 +38,7 @@ li {
   margin-bottom: 40px;
 }
 
-.priceTier--Cards {
+.priceTier--cards {
   display: flex;
   flex-direction: row;
   min-width: 1170px;
@@ -53,6 +54,7 @@ li {
   top: 0;
   width: 100%;
 }
+
 .borderTop-standard {
   content: "";
   position: absolute;
@@ -60,6 +62,7 @@ li {
   top: 0;
   width: 100%;
 }
+
 .borderTop-premium {
   content: "";
   position: absolute;
@@ -68,9 +71,7 @@ li {
   width: 100%;
 }
 
-
-
-.priceTier--Card {
+.priceTier--card {
   position: relative;
   display: flex;
   min-width: 370px;
@@ -86,24 +87,24 @@ li {
   box-shadow: 10px 10px 100px 10px rgba(96, 95, 95, 0.25);
 }
 
-.title {
+.priceTier--card-title {
   gap: 15px;
 }
 
-.title p {
+.priceTier--card-title-content  {
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
 
-.price {
+.priceTier--card-title-price {
   display: flex;
   flex-direction: row;
   align-items: baseline;
   justify-content: center;
 }
 
-.content ul {
+.priceTier--card-content-list {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -113,11 +114,11 @@ li {
   gap: 15px;
 }
 
-.priceTier--Cards ul {
+.priceTier--cards ul {
   list-style: none;
 }
 
-.priceTier--Card-Button {
+.priceTier--card-button {
   min-width: 150px;
   min-height: 56px;
   background-color: white;
@@ -126,12 +127,13 @@ li {
   border-radius: 8px;
 }
 
-.priceTier--Card-Button:hover {
+.priceTier--card-button:hover {
   background-color: #5b99b3;
   color: white;
   border: 1px solid #5b99b3;
 }
-.priceTier--Card-Button:focus {
+
+.priceTier--card-button:focus {
   background-color: #5b99b3;
   color: white;
   border: 1px solid #5b99b3;
@@ -142,13 +144,17 @@ li {
   opacity: 50%;
 }
 
-.Categories {
+
+
+
+/* Categories section */
+.categories {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.Categories--title {
+.categories--title {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -157,7 +163,7 @@ li {
   gap: 10px;
 }
 
-.Categories--cards {
+.categories--cards {
   display: flex;
   flex-direction: row nowrap;
   width: 1920px;
@@ -165,7 +171,7 @@ li {
   gap: 30px;
 }
 
-.Categories--card {
+.categories--card {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -177,7 +183,7 @@ li {
   gap: 30px;
 }
 
-.Categories--cards-content {
+.categories--cards-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -187,28 +193,28 @@ li {
   gap: 30px;
 }
 
-.Categories--cards-popcard-content {
+.categories--cards-popCard-content {
   width: 288px;
   height: 130px;
   gap: 30px;
 }
 
-.Categories--cards-popcard {
+.categories--cards-popCard {
   background-color: rgba(219, 132, 29, 0.1);
 }
 
-.Categories--cards-folkcard {
+.categories--cards-folkCard {
   background-color: rgba(252, 82, 82, 0.1);
 }
 
-.Categories--cards-instrumentalcard {
+.categories--cards-instrumentalCard {
   background-color: rgba(91, 153, 179, 0.8);
 }
 
-.Categories--cards-rockcard {
+.categories--cards-rockCard {
   background-color: rgba(192, 0, 150, 0.1);
 }
 
-.Categories--cards-jazzcard {
+.categories--cards-jazzCard {
   background-color: rgba(132, 196, 255, 0.1);
 }
