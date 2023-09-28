@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import Head from "next/head";
 import PriceTier from "@/components/PriceTier";
+import Categories from "@/components/Categories";
 import Navigator from "@/components/Navigator";
 import style from "./index.module.scss"
 
@@ -17,6 +18,7 @@ export default function Home() {
         <header>
           <Navigator />
         </header>
+        <Categories />
         <PriceTier />
         <Footer />
       </main>
