@@ -20,6 +20,10 @@ const fontClasses = {
   small_regular: raleway.className + " font_small_regular ",
   /**font sytle other than design systme */
   font_navigator_logo: raleway.className + " font_navigator_logo ",
+  font_hero_title: montserrat.className + " font_hero_title",
+  font_hero_content: raleway.className + " font_hero_content",
+  font_hero_background: montserrat.className + " font_hero_background",
+  font_hero_button: montserrat.className + " font_hero_button",
 };
 
 export default fontClasses;

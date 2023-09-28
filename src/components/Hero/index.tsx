@@ -1,5 +1,5 @@
 import style from "./index.module.scss";
-
+import fontClasses from "@/styles/font-styles-className";
 import React from "react";
 
 const Hero = () => {
@@ -7,17 +7,20 @@ const Hero = () => {
     <section className={style.hero_slide}>
       <div className={style.hero_container}>
         <div className={style.backgroud_font_group}>
-          <div className={style.backgroud_font}>&nbsp;UI&nbsp;MUSIC</div>
-          <div className={style.backgroud_font}>NEWWAY</div>
+          <div className={fontClasses.font_hero_background}>&nbsp;UI&nbsp;MUSIC</div>
+          <div className={fontClasses.font_hero_background}>NEWWAY</div>
         </div>
         <div className={style.left_hero}>
           <div className={style.left_titles}>
-            <h1 className={style.left_hero_title}>play</h1>
-            <p className={style.left_hero_content}>
-              Be the first to hear new tracks, connect directly with fellow fans
-              and your favorite artists in real time, and support the future of
-              music with every play, like, repost and comment
-            </p>
+            <h1 className={fontClasses.font_hero_title}>PLAY.</h1>
+            <div className={style.left_hero_content}>
+              <p className={fontClasses.font_hero_content}>
+                Be the first to hear new tracks, connect directly with fellow fans
+                and your favorite artists in real time, and support the future of
+                music with every play, like, repost and comment
+              </p>
+            </div>
+
             <div className={style.left_hero_buttons}>
               <button className={style.left_hero_download_button}>
                 <svg
@@ -63,12 +66,14 @@ const Hero = () => {
                   />
                 </svg>
               </button>
-              <button className={style.left_hero_play_button}>PLAY MUSIC</button>
+              <div className={style.left_hero_play_button}>
+                <a className={fontClasses.font_hero_button}>PLAY MUSIC</a>
+              </div>
             </div>
           </div>
         </div>
         <div className={style.right_hero}>
-          <div className={style.right_hero_image}/>
+          <div className={style.right_hero_image} />
         </div>
       </div>
     </section>
