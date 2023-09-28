@@ -6,11 +6,11 @@ const Hero = () => {
   return (
     <section className={style.hero_slide}>
       <div className={style.hero_container}>
-        <div className={style.backgroud_font_group}>
+        <section className={style.backgroud_font_group}>
           <div className={fontClasses.font_hero_background}>&nbsp;UI&nbsp;MUSIC</div>
           <div className={fontClasses.font_hero_background}>NEWWAY</div>
-        </div>
-        <div className={style.left_hero}>
+        </section>
+        <section className={style.left_hero}>
           <div className={style.left_titles}>
             <h1 className={fontClasses.font_hero_title}>PLAY.</h1>
             <div className={style.left_hero_content}>
@@ -71,10 +71,10 @@ const Hero = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className={style.right_hero}>
+        </section>
+        <section className={style.right_hero}>
           <div className={style.right_hero_image} />
-        </div>
+        </section>
       </div>
     </section>
   );
