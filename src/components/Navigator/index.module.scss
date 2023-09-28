@@ -1,7 +1,6 @@
 .header_outer_wrapper {
   display: flex;
   justify-content: center;
-  background: linear-gradient(90deg, #417B94 3.82%, rgba(74, 163, 199, 0.71) 95.66%);
   position: fixed;
   width: 100%;
   top: 0;
@@ -48,4 +47,8 @@
       }
     }
   }
+}
+
+.untransparency_nav {
+  background: linear-gradient(90deg, #417B94 3.82%, rgba(74, 163, 199, 0.71) 95.66%);
 }

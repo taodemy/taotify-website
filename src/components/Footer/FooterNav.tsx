@@ -4,6 +4,7 @@ import Facebook from "@/assets/FacebookIcon.svg";
 import Twitter from "@/assets/TwitterIcon.svg";
 import Linkedin from "@/assets/LinkedinIcon.svg";
 import Instagram from "@/assets/InstagramIcon.svg";
+import fontClasses from "@/styles/font-styles-className";
 
 const FooterNav = () => {
   const navLinks = ["HOME", "COMPANY", "BLOG", "CONTACT US", "SITEMAP"];
@@ -47,7 +48,7 @@ const FooterNav = () => {
             </ul>
           </div>
         </div>
-        <p className="font_small_regular">@ taodify.com, 2023</p>
+        <p className={fontClasses.small_regular}>@ taodify.com, 2023</p>
       </div>
     </section>
   );
