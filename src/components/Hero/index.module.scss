@@ -9,7 +9,7 @@
   background: linear-gradient(
     90deg,
     #417b94 3.82%,
-    rgba(74, 163, 199, 0.71) 95.66%
+    rgba(74, 163, 199, 0) 95.66%
   );
 }
 
@@ -22,17 +22,17 @@
 }
 
 .backgroud_font_group {
-  width: 2494.431px;
-  height: 1088.604px;
+  width: 2488px;
+  height: 1088px;
   position: absolute;
-  left: -30px;
-  bottom: -300px;
+  left: -32px;
+  bottom: -296px;
 }
 
 .left_hero {
   display: flex;
   width: 50%;
-  padding: 155px 0px;
+  padding: 152px 0px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -50,7 +50,7 @@
 }
 
 .left_hero_content {
-  width: 531px;
+  width: 528px;
   height: 128px;
 }
 
