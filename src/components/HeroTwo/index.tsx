@@ -18,7 +18,7 @@ export default function HeroTwo() {
     <section className={style.hero_outter_wrapper}>
       <div className={style.hero_inner_wrapper}>
         <div style={openSans.style} className={style.hero_background_text + " light-colored-text"}>
-          <p className={style.text_first_line}>UIMUSIC</p>
+          <p className={style.text_first_line}>UI MUSIC</p>
           <p className={style.text_second_line}>NEWWAY</p>
         </div>
 

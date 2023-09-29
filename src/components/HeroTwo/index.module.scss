@@ -18,9 +18,12 @@
       .text_first_line {
         display: flex;
         justify-content: center;
-        width: 100%;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        height: 577.75px;
         font-size: 415.44px;
         line-height: 565.76px;
+        overflow: hidden;
       }
 
       .text_second_line {
