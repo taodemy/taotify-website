@@ -3,7 +3,7 @@ import Head from "next/head";
 import PriceTier from "@/components/PriceTier";
 import Navigator from "@/components/Navigator";
 import style from "./index.module.scss"
-import Hero from "@/components/Hero";
+import HeroFirst from "@/components/Hero_first";
 
 export default function Home() {
   return (
@@ -18,7 +18,7 @@ export default function Home() {
         <header>
           <Navigator />
         </header>
-        <Hero />
+        <HeroFirst />
         <PriceTier />
         <Footer />
       </main>
