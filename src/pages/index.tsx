@@ -4,7 +4,7 @@ import PriceTier from "@/components/PriceTier";
 import Categories from "@/components/Categories";
 import Navigator from "@/components/Navigator";
 import style from "./index.module.scss"
-import HeroFirst from "@/components/Hero_first";
+import HeroFirst from "@/components/HeroFirst";
 
 export default function Home() {
   return (
