@@ -37,7 +37,7 @@ export default function HeroTwo() {
             <div className={style.front_inner_cta}>
               <Apple/>
               <Android/>
-              <button className="light-colored-background primary-colored-text">
+              <button className={`light-colored-background primary-colored-text ${fontClasses.h5_headline}`}>
                 PLAY MUSIC
               </button>
             </div>
