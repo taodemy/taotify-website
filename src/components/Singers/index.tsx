@@ -3,12 +3,12 @@ import style from './index.module.scss';
 
 const Singers = () => {
   return (
-    <div>
+    <section className={style.singers}>
        <main className={style.singer_container}>
         <article className={style.singer_introduction}>
           <div>
-            <h2>Singers</h2>
-            <p>
+            <h2 className="font_h2_headline dark-colored-text">Singers</h2>
+            <p className="font_main_regular dark-colored-text">
               Fusce justo mi, vehicula id arcu et, dapibus tristique lectus.
               Vivamus a elit sodales, tincidunt nunc non, maximus lacus. Fusce a
               augue sed dolor auctor iaculis vitae id mauris. Integer ut lectus
@@ -16,7 +16,7 @@ const Singers = () => {
               cursus. Sed tempus enim non massa mattis iaculis. In quis massa
               risus
             </p>
-            <button>View All Singers</button>
+            <button className="font_h5_headline light-colored-text">View All Singers</button>
           </div>
         </article>
         <aside className={style.singer_posters}>
@@ -65,7 +65,7 @@ const Singers = () => {
           ></img>
         </aside>
       </main>
-    </div>
+    </section>
   )
 }
 

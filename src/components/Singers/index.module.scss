@@ -1,48 +1,36 @@
+.singers{
+  margin: 40px 0;
+}
 .singer_container {
     display: flex;
     max-width: 1280px;
     justify-content: center;
     margin: 0 auto; 
+    padding: 27px 0;
   }
   .singer_introduction {
     font-family: Montserrat;
     width: 470px;
     display: flex;
     align-items: center;
-    
-  }
-  .singer_introduction h2{
-    color: #000;
-    font-weight:900;
   }
   .singer_introduction p{
-    font-family: Raleway;
-    color: #222222;
     margin-top: 32px;
-  
+    opacity: 70%;
   }
   
   .singer_introduction button{
-    font-family: Montserrat;
     background: #5B99B3;
     border-radius: 32px;
     border: none;
-    width: 240px;
-    height: 60px;
-    box-sizing: border-box;
-    padding: 18px, 34px, 18px, 34px;
-    color: white;
-    font-weight: bold;
+    padding: 18px 34px 18px 34px;
     margin-top: 80px;
-  
   }
   .singer_posters{
     margin-left: 20px;
     width: 670px;
     height: 712px;
     position: relative;
-    padding: 21px 0;
-  
   }
   .singer_posters img{
     position: absolute;
@@ -60,23 +48,22 @@
     height: 270px;
     border-radius: 24px;
     top:91px;
-    opacity: 0.5;
+    opacity: 50%;
   }
   
   .singerSectionImg2{
     width: 270px;
     height: 300px;
     border-radius: 24px;
-    bottom: 51px;
+    bottom: 40px;
     z-index: 1;
   }
   .singerSectionImg21{
     width: 270px;
     height: 300px;
     border-radius: 24px;
-    bottom: 11px;
-    opacity: 0.5;
-    
+    bottom: 0;
+    opacity: 50%;
   }
   .singerSectionImg3{
     width: 270px;
@@ -90,15 +77,15 @@
     height: 300px;
     border-radius: 24px;
     right: 0;
-    top: 61px;
-    opacity: 0.5;
+    top: 40px;
+    opacity: 50%;
   }
-  
   .singerSectionImg4{
     width: 370px;
     height: 270px;
     border-radius: 24px;
-    bottom: 102px;
+    bottom: 91px;
+    // top: 351px;
     right: 0;
     z-index: 1;
   }
@@ -106,9 +93,8 @@
     width: 370px;
     height: 270px;
     border-radius: 24px;
-    bottom: 62px;
+    bottom: 51px;
     right: 0;
-    opacity: 0.5;
-    
+    opacity: 50%;
   }
   
