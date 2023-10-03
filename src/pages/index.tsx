@@ -3,6 +3,7 @@ import Head from "next/head";
 import PriceTier from "@/components/PriceTier";
 import Categories from "@/components/Categories";
 import Navigator from "@/components/Navigator";
+import Singers from "@/components/Singers";
 import HeroTwo from "@/components/HeroTwo";
 import style from "./index.module.scss"
 import HeroFirst from "@/components/HeroFirst";
@@ -23,6 +24,7 @@ export default function Home() {
         </header>
         <HeroFirst />
         <Categories />
+        <Singers/>
         <PriceTier />
         <Footer />
       </main>
