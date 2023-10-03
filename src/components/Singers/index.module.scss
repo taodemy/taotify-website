@@ -1,0 +1,114 @@
+.singer_container {
+    display: flex;
+    max-width: 1280px;
+    justify-content: center;
+    margin: 0 auto; 
+  }
+  .singer_introduction {
+    font-family: Montserrat;
+    width: 470px;
+    display: flex;
+    align-items: center;
+    
+  }
+  .singer_introduction h2{
+    color: #000;
+    font-weight:900;
+  }
+  .singer_introduction p{
+    font-family: Raleway;
+    color: #222222;
+    margin-top: 32px;
+  
+  }
+  
+  .singer_introduction button{
+    font-family: Montserrat;
+    background: #5B99B3;
+    border-radius: 32px;
+    border: none;
+    width: 240px;
+    height: 60px;
+    box-sizing: border-box;
+    padding: 18px, 34px, 18px, 34px;
+    color: white;
+    font-weight: bold;
+    margin-top: 80px;
+  
+  }
+  .singer_posters{
+    margin-left: 20px;
+    width: 670px;
+    height: 712px;
+    position: relative;
+    padding: 21px 0;
+  
+  }
+  .singer_posters img{
+    position: absolute;
+    object-fit: cover;
+  }
+  .singerSectionImg1{
+    width: 370px;
+    height: 270px;
+    border-radius: 24px;
+    top:51px;
+    z-index: 1;
+  }
+  .singerSectionImg11{
+    width: 370px;
+    height: 270px;
+    border-radius: 24px;
+    top:91px;
+    opacity: 0.5;
+  }
+  
+  .singerSectionImg2{
+    width: 270px;
+    height: 300px;
+    border-radius: 24px;
+    bottom: 51px;
+    z-index: 1;
+  }
+  .singerSectionImg21{
+    width: 270px;
+    height: 300px;
+    border-radius: 24px;
+    bottom: 11px;
+    opacity: 0.5;
+    
+  }
+  .singerSectionImg3{
+    width: 270px;
+    height: 300px;
+    border-radius: 24px;
+    right: 0;
+    z-index: 1;
+  }
+  .singerSectionImg31{
+    width: 270px;
+    height: 300px;
+    border-radius: 24px;
+    right: 0;
+    top: 61px;
+    opacity: 0.5;
+  }
+  
+  .singerSectionImg4{
+    width: 370px;
+    height: 270px;
+    border-radius: 24px;
+    bottom: 102px;
+    right: 0;
+    z-index: 1;
+  }
+  .singerSectionImg41{
+    width: 370px;
+    height: 270px;
+    border-radius: 24px;
+    bottom: 62px;
+    right: 0;
+    opacity: 0.5;
+    
+  }
+  
