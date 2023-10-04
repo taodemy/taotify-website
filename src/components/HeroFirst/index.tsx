@@ -11,7 +11,6 @@ const Hero = () => {
           <div className={fontClasses.font_hero_background}>NEWWAY</div>
         </section>
         <section className={style.left_hero}>
-          {/* <div className={style.left_titles}> */}
           <div className={style.left_title}>
             <h1 className={fontClasses.font_hero_title}>PLAY.</h1>
           </div>
@@ -72,7 +71,6 @@ const Hero = () => {
                 <a className={fontClasses.font_hero_button}>PLAY MUSIC</a>
               </div>
             </div>
-          {/* </div> */}
         </section>
         <section className={style.right_hero}>
           <div className={style.right_hero_image} />

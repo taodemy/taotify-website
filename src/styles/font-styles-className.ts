@@ -24,6 +24,8 @@ const fontClasses = {
   font_hero_content: raleway.className + " font_hero_content",
   font_hero_background: montserrat.className + " font_hero_background",
   font_hero_button: montserrat.className + " font_hero_button",
+  font_get_started_h2: montserrat.className + " font_get_started_h2",
+  font_get_started_content_title: montserrat.className + " font_get_started_content_title",
 };
 
 export default fontClasses;

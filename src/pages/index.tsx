@@ -5,6 +5,7 @@ import Categories from "@/components/Categories";
 import Navigator from "@/components/Navigator";
 import style from "./index.module.scss"
 import HeroFirst from "@/components/HeroFirst";
+import GetStarted from "@/components/GetStarted/index";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         </header>
         <HeroFirst />
         <Categories />
+        <GetStarted/>
         <PriceTier />
         <Footer />
       </main>
