@@ -3,6 +3,8 @@ import Head from "next/head";
 import PriceTier from "@/components/PriceTier";
 import Categories from "@/components/Categories";
 import Navigator from "@/components/Navigator";
+import Singers from "@/components/Singers";
+import HeroTwo from "@/components/HeroTwo";
 import style from "./index.module.scss"
 import HeroFirst from "@/components/HeroFirst";
 import GetStarted from "@/components/GetStarted/index";
@@ -19,10 +21,12 @@ export default function Home() {
       <main>
         <header>
           <Navigator />
+          <HeroTwo/>
         </header>
         <HeroFirst />
         <Categories />
         <GetStarted/>
+        <Singers/>
         <PriceTier />
         <Footer />
       </main>
