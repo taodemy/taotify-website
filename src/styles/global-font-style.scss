@@ -91,7 +91,56 @@
 
 .font_hero_button {
   @include main(700);
-  // line-height: normal;
   color: var(--general-primary, #5b99b3);
   font-feature-settings: "clig" off, "liga" off;
+}
+
+.font_get_started_h2 {
+  text-align: center;
+  font-size: 144px;
+  font-weight: 700;
+  opacity: 0.5;
+  color: rgba(255, 255, 255, 0);
+  border: 2px;
+  -webkit-text-stroke: 1px #fff;
+}
+
+.font_get_started_content_title {
+  color: var(--general-light, #fff);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.font_get_started_content_title_blue {
+  color: var(--general-light, #5b99b3);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.font_get_started_content_p {
+  color: var(--general-light, #fff);
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px; /* 158.333% */
+}
+
+.font_get_started_button_watch_video_text {
+  color: var(--general-light, #FFF);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 28px;
 }
