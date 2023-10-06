@@ -19,14 +19,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={style.page_layout}>
-        {/* <header>
-        </header> */}
-          <Navigator />
-          <HeroTwo/>
+        <Navigator />
+        <HeroTwo />
         <HeroFirst />
         <Categories />
-        <GetStarted/>
-        <Singers/>
+        <GetStarted />
+        <Singers />
         <PriceTier />
         <Footer />
       </main>
