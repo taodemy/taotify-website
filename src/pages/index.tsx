@@ -4,8 +4,9 @@ import PriceTier from "@/components/PriceTier";
 import Categories from "@/components/Categories";
 import Navigator from "@/components/Navigator";
 import HeroTwo from "@/components/HeroTwo";
-import style from "./index.module.scss"
+import style from "./index.module.scss";
 import HeroFirst from "@/components/HeroFirst";
+import Sponsor from "@/components/Sponsor";
 
 export default function Home() {
   return (
@@ -19,11 +20,12 @@ export default function Home() {
       <main>
         <header>
           <Navigator />
-          <HeroTwo/>
+          <HeroTwo />
         </header>
         <HeroFirst />
         <Categories />
         <PriceTier />
+        <Sponsor />
         <Footer />
       </main>
     </>
