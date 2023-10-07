@@ -18,15 +18,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <header>
-          <Navigator />
-          <HeroTwo/>
-        </header>
+      <main className={style.page_layout}>
+        <Navigator />
+        <HeroTwo />
         <HeroFirst />
         <Categories />
-        <GetStarted/>
-        <Singers/>
+        <GetStarted />
+        <Singers />
         <PriceTier />
         <Footer />
       </main>
