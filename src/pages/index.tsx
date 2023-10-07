@@ -25,10 +25,13 @@ export default function Home() {
           <Navigator />
           <HeroTwo />
         </header>
+      <main className={style.page_layout}>
+        <Navigator />
+        <HeroTwo />
         <HeroFirst />
         <Categories />
-        <GetStarted/>
-        <Singers/>
+        <GetStarted />
+        <Singers />
         <PriceTier />
         <Sponsor />
         <Footer />
