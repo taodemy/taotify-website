@@ -14,7 +14,9 @@ const sponser = () => {
   return (
     <section className={style.sponsor_background}>
       <div className={style.sponsor_div}>
-        <h2 className={fontClasses.h2_headline}>Our Sponsors</h2>
+        <h2 className={fontClasses.h2_headline + "light-colored-text"}>
+          Our Sponsors
+        </h2>
         <div className={style.sponsor_image_div}>
           <div className={style.sponsor_images}>
             <div>
