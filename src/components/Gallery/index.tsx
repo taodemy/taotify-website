@@ -2,15 +2,14 @@ import React from "react";
 import style from "./index.module.scss";
 import GalleryHeartIcon from "../../assets/GalleryHeartIcon.svg";
 import GalleryCommentIcon from "../../assets/GalleryCommentIcon.svg";
+import GalleryInstagramIcon from "../../assets/GalleryInstagramIcon.svg";
 
 const Gallery = () => {
   return (
     <section className={style.Gallery}>
-      <img
-        className={style.instagram_icon}
-        src="/InstagramIcon.svg"
-        alt="Instagram Icon"
-      />
+      <div className={style.instagram_icon}>
+        <GalleryInstagramIcon className={style.galleryInstagramIcon} />
+      </div>
       <h2 className="font_h2_headline dark-colored-text">See our Best Shots</h2>
       <article className={style.media}>
         <figure className={style.instashot1}>
