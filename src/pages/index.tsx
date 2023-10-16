@@ -8,6 +8,7 @@ import HeroTwo from "@/components/HeroTwo";
 import style from "./index.module.scss"
 import HeroFirst from "@/components/HeroFirst";
 import Gallery from "@/components/Gallery";
+import GetStarted from "@/components/GetStarted/index";
 
 export default function Home() {
   return (
@@ -18,14 +19,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <header>
-          <Navigator />
-          <HeroTwo/>
-        </header>
+      <main className={style.page_layout}>
+        <Navigator />
+        <HeroTwo />
         <HeroFirst />
         <Categories />
-        <Singers/>
+        <GetStarted />
+        <Singers />
         <PriceTier />
         <Gallery />
         <Footer />
