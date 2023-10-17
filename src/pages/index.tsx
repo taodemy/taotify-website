@@ -8,6 +8,7 @@ import HeroTwo from "@/components/HeroTwo";
 import style from "./index.module.scss"
 import HeroFirst from "@/components/HeroFirst";
 import GetStarted from "@/components/GetStarted/index";
+import Testimonial from "@/components/Testimonial/index";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
         <GetStarted />
         <Singers />
         <PriceTier />
+        <Testimonial />
         <Footer />
       </main>
     </>

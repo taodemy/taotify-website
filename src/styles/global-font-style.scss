@@ -137,10 +137,18 @@
 }
 
 .font_get_started_button_watch_video_text {
-  color: var(--general-light, #FFF);
-  font-feature-settings: 'clig' off, 'liga' off;
+  color: var(--general-light, #fff);
+  font-feature-settings: "clig" off, "liga" off;
   font-size: 20px;
   font-style: normal;
   font-weight: 800;
   line-height: 28px;
+}
+
+.font_testimonials_title {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
 }
