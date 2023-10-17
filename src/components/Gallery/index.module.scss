@@ -1,0 +1,61 @@
+.Gallery{
+    position: relative;
+    margin: 40px 0;
+    width: 1920px;
+    height: 770px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden; 
+    background: linear-gradient(180deg, rgba(252, 82, 82, 0.05) 0%, rgba(252, 82, 82, 0) 100%);
+    ;
+    box-sizing: border-box;
+    padding-top: 160px;
+}
+.instagram_icon{
+    position: absolute;
+    top: 0;
+    left: 498px;
+}
+.Gallery h2{ 
+    margin-left: -670px;
+    margin-bottom: 60px;
+    width: 480px;
+    height: 44px;   
+}
+.media {
+    width: 1970px;
+    height: 506px;
+    display:flex;
+}
+.media img{
+    width: 370px;
+    height: 370px;
+}
+.title_tags{
+    margin-top: 24px;
+}
+.likes_comments{
+    display: flex;
+}
+.likes_comments li{
+    margin-right: 40px;
+}
+.title_tags p{
+    margin-top: 8px;
+}
+.tag {
+    opacity: 70%;
+}
+.comment{
+    opacity: 50%;
+}
+.instashot1{
+    opacity: 30%;
+}
+.instashot5{
+    opacity: 30%;
+}
+.media h5{
+    margin-left: 8px;
+}
