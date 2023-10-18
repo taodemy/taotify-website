@@ -7,6 +7,7 @@ import Singers from "@/components/Singers";
 import HeroTwo from "@/components/HeroTwo";
 import style from "./index.module.scss"
 import HeroFirst from "@/components/HeroFirst";
+import Gallery from "@/components/Gallery";
 import GetStarted from "@/components/GetStarted/index";
 import Sponsor from "@/components/Sponsor";
 
@@ -27,7 +28,11 @@ export default function Home() {
         <GetStarted />
         <Singers />
         <PriceTier />
+
         <Sponsor />
+
+        <Gallery />
+
         <Footer />
       </main>
     </>
