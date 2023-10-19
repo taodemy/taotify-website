@@ -9,21 +9,21 @@ export default function Design() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="light-colored-background">
-        <h1 className="font_h1_headline_bold dark-colored-text">H1 Headline / Bold</h1>
-        <h1 className="font_h1_headline_regular dark-colored-text">H1 Headline / Regular</h1>
-        <p className="font_subtitle_bold dark-colored-text">subtitle / Bold</p>
-        <p className="font_subtitle_regular dark-colored-text">subtitle / Regular</p>
-        <h2 className="font_h2_headline dark-colored-text">H2 headline</h2>
-        <h3 className="font_h3_headline dark-colored-text">H3 headline</h3>
-        <h4 className="font_h4_headline dark-colored-text">H4 headline</h4>
-        <h5 className="font_h5_headline dark-colored-text">h5 headline</h5>
-        <p className="font_main_bold dark-colored-text">Main / Bold</p>
-        <p className="font_main_regular dark-colored-text">Main / Regular</p>
-        <p className="font_menu dark-colored-text">MENU</p>
-        <p className="font_additional dark-colored-text">Additional</p>
-        <p className="font_small_bold dark-colored-text">Small / Bold</p>
-        <p className="font_small_regular dark-colored-text">Small / Regular</p>
+      <main>
+        <h1 className="font-bold">H1 Headline / Bold</h1>
+        <h1>H1 Headline / Regular</h1>
+        <p className="text-2xl font-Raleway font-bold">subtitle / Bold</p>
+        <p className="text-2xl font-Raleway">subtitle / Regular</p>
+        <h2>H2 headline</h2>
+        <h3>H3 headline</h3>
+        <h4>H4 headline</h4>
+        <h5>h5 headline</h5>
+        <p className="font-Raleway text-base font-bold">Main / Bold</p>
+        <p className="font-Raleway text-base">Main / Regular</p>
+        <p className="text-sm font-Montserrat">MENU</p>
+        <p className="text-xs font-Montserrat leading-[14.63px]">Additional</p>
+        <p className="text-xs font-Raleway font-bold">Small / Bold</p>
+        <p className="text-xs font-Raleway">Small / Regular</p>
       </main>
     </>
   );
