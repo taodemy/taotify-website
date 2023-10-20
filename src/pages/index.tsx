@@ -9,7 +9,11 @@ import style from "./index.module.scss"
 import HeroFirst from "@/components/HeroFirst";
 import Gallery from "@/components/Gallery";
 import GetStarted from "@/components/GetStarted/index";
+
+import Sponsor from "@/components/Sponsor";
+
 import Testimonial from "@/components/Testimonial/index";
+
 
 export default function Home() {
   return (
@@ -28,8 +32,13 @@ export default function Home() {
         <GetStarted />
         <Singers />
         <PriceTier />
+
+        <Sponsor />
+
         <Gallery />
+
         <Testimonial />
+
         <Footer />
       </main>
     </>
