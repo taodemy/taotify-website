@@ -1,22 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 @tailwind base;
 @layer base {
-    h1 {
-        @apply text-4xl font-Montserrat;
-      }
-    h2 {
-        @apply text-3xl font-Montserrat;
-    }
-    h3 {
-        @apply text-2xl font-Montserrat font-extrabold;
-    }
-    h4 {
-        @apply text-xl font-Montserrat;
-    }
-    h5 {
-        @apply text-lg font-Montserrat;
-    }
+  h1 {
+    @apply text-4xl font-Montserrat;
+  }
+  h2 {
+    @apply text-3xl font-Montserrat;
+  }
+  h3 {
+    @apply text-2xl font-Montserrat font-extrabold;
+  }
+  h4 {
+    @apply text-xl font-Montserrat;
+  }
+  h5 {
+    @apply text-lg font-Montserrat;
+  }
 }
 @tailwind components;
 @tailwind utilities;

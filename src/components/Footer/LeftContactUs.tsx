@@ -1,30 +1,31 @@
-import React from 'react'
-import style from './index.module.scss'
+import React from "react";
+import style from "./index.module.scss";
 
-import PhoneIcon from '@/assets/PhoneIcon.svg'
-import EmailIcon from '@/assets/EmailIcon.svg'
-import PositionIcon from '@/assets/Location.svg'
-import Decoration1 from '@/assets/FooterDecoration1.svg'
+import PhoneIcon from "@/assets/PhoneIcon.svg";
+import EmailIcon from "@/assets/EmailIcon.svg";
+import PositionIcon from "@/assets/Location.svg";
+import Decoration1 from "@/assets/FooterDecoration1.svg";
 
 const LeftContactUs = () => {
   const contactList = [
     {
       icon: <PhoneIcon />,
-      content: '+92 333 6527366',
+      content: "+92 333 6527366",
     },
     {
       icon: <EmailIcon />,
-      content: 'abuzer@greelogix.com',
+      content: "abuzer@greelogix.com",
     },
     {
       icon: <PositionIcon />,
-      content: 'Plot 252, Block L Phase 2 Johar Town, Lahore, PK',
+      content: "Plot 252, Block L Phase 2 Johar Town, Lahore, PK",
     },
-  ]
+  ];
 
   return (
     <section
-      className={style.contactus_section_left + ' primary-colored-background'}>
+      className={style.contactus_section_left + " primary-colored-background"}
+    >
       <div className={style.contactus_left_content}>
         <h2 className="font_h2_headline">Contact us</h2>
         <p className="font_subtitle_regular light-colored-text-with-opacity">
@@ -39,13 +40,13 @@ const LeftContactUs = () => {
                   {obj.content}
                 </h5>
               </li>
-            )
+            );
           })}
         </ul>
       </div>
       <Decoration1 className={style.decor1} />
     </section>
-  )
-}
+  );
+};
 
-export default LeftContactUs
+export default LeftContactUs;

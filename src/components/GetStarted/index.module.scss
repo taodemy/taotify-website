@@ -3,9 +3,11 @@
   height: 964px;
   flex-shrink: 0;
   position: relative;
-  background: linear-gradient(180deg, #4178903a 0%, rgba(11, 17, 20, 0.2) 100%),
+  background:
+    linear-gradient(180deg, #4178903a 0%, rgba(11, 17, 20, 0.2) 100%),
     linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
-    url("../../assets/HeroGetStarted.svg"), lightgray 50% / cover no-repeat;
+    url("../../assets/HeroGetStarted.svg"),
+    lightgray 50% / cover no-repeat;
   background-position: center center;
 }
 
@@ -58,4 +60,3 @@
   border: none;
   background: var(--general-primary, #5b99b300);
 }
-
