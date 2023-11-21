@@ -6,7 +6,9 @@ const Hero = () => {
   return (
     <section className={style.hero_slide}>
       <section className={style.background_font_group}>
-        <div className={fontClasses.font_hero_background}>&nbsp;UI&nbsp;MUSIC</div>
+        <div className={fontClasses.font_hero_background}>
+          &nbsp;UI&nbsp;MUSIC
+        </div>
         <div className={fontClasses.font_hero_background}>NEWWAY</div>
       </section>
       <div className={style.hero_container}>

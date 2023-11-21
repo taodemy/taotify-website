@@ -1,10 +1,10 @@
-import React from 'react'
-import style from './index.module.scss';
+import React from "react";
+import style from "./index.module.scss";
 
 const Singers = () => {
   return (
     <section className={style.singers}>
-       <main className={style.singer_container}>
+      <main className={style.singer_container}>
         <article className={style.singer_introduction}>
           <div>
             <h2 className="font_h2_headline dark-colored-text">Singers</h2>
@@ -16,7 +16,9 @@ const Singers = () => {
               cursus. Sed tempus enim non massa mattis iaculis. In quis massa
               risus
             </p>
-            <button className="font_h5_headline light-colored-text">View All Singers</button>
+            <button className="font_h5_headline light-colored-text">
+              View All Singers
+            </button>
           </div>
         </article>
         <aside className={style.singer_posters}>
@@ -66,7 +68,7 @@ const Singers = () => {
         </aside>
       </main>
     </section>
-  )
-}
+  );
+};
 
-export default Singers
+export default Singers;

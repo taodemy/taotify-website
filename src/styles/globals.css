@@ -91,7 +91,7 @@ li {
   gap: 15px;
 }
 
-.priceTier--card-title-content  {
+.priceTier--card-title-content {
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -140,12 +140,9 @@ li {
 }
 
 .unavailable {
-  color:rgba(34, 34, 34, 1);
+  color: rgba(34, 34, 34, 1);
   opacity: 50%;
 }
-
-
-
 
 /* Categories section */
 .categories {

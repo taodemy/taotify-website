@@ -20,7 +20,7 @@
   position: absolute;
   justify-content: center;
   align-items: center;
-  gap: 80px
+  gap: 80px;
 }
 
 .background_font_group {
@@ -88,6 +88,7 @@
 .right_hero_image {
   width: 542px;
   height: 666px;
-  background: url("../../assets/Hero1Image.svg"),
+  background:
+    url("../../assets/Hero1Image.svg"),
     transparent 50% / cover no-repeat;
 }
