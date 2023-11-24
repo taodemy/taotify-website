@@ -1,10 +1,6 @@
 @use "@/styles/design-variables.scss" as var;
 .sponsor_background {
-  background: linear-gradient(
-    90.48deg,
-    #417b94 3.82%,
-    rgba(74, 163, 199, 0.71) 95.66%
-  );
+  background: linear-gradient(90.48deg, #417b94 3.82%, rgba(74, 163, 199, 0.71) 95.66%);
   width: 1920px;
   height: 412px;
   display: flex;

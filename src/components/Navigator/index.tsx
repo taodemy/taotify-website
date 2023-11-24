@@ -44,9 +44,7 @@ const Navigator = () => {
       <nav className={style.header_inner_wrapper}>
         <section
           className={
-            style.header_left_logo +
-            fontClasses.font_navigator_logo +
-            "light-colored-text"
+            style.header_left_logo + fontClasses.font_navigator_logo + "light-colored-text"
           }
         >
           TAOTIFY
@@ -55,14 +53,9 @@ const Navigator = () => {
           <ul>
             {navLinks.map((nav) => {
               return (
-                <li
-                  key={nav.name}
-                  className={`${fontClasses.menu} light-colored-text`}
-                >
+                <li key={nav.name} className={`${fontClasses.menu} light-colored-text`}>
                   <a>{nav.name}</a>
-                  {nav.child ? (
-                    <TriangleIcon className={style.menu_list_icon} />
-                  ) : null}
+                  {nav.child ? <TriangleIcon className={style.menu_list_icon} /> : null}
                 </li>
               );
             })}

@@ -17,9 +17,7 @@ const FooterNav = () => {
   ];
 
   return (
-    <section
-      className={style.footer_section_nav + " primary-colored-background"}
-    >
+    <section className={style.footer_section_nav + " primary-colored-background"}>
       <div className={style.footernav_div_wrapper}>
         <h2 className="font_menu">TAODIFY</h2>
         <div className={style.footernav_div_midsection}>

@@ -25,14 +25,9 @@ const Gallery = () => {
                 <h5 className="font_h5_headline dark-colored-text">140</h5>
               </li>
             </ul>
-            <p className={`${style.tag} font_main_regular dark-colored-text`}>
-              Lorem Ipsum Amet
-            </p>
-            <p
-              className={`${style.comment} font_main_regular dark-colored-text`}
-            >
-              #music #concert #conference #london #event #artist #dj #soundtrack
-              #dance
+            <p className={`${style.tag} font_main_regular dark-colored-text`}>Lorem Ipsum Amet</p>
+            <p className={`${style.comment} font_main_regular dark-colored-text`}>
+              #music #concert #conference #london #event #artist #dj #soundtrack #dance
             </p>
           </figcaption>
         </figure>
@@ -49,14 +44,9 @@ const Gallery = () => {
                 <h5 className="font_h5_headline dark-colored-text">140</h5>
               </li>
             </ul>
-            <p className={`${style.tag} font_main_regular dark-colored-text`}>
-              Lorem Ipsum Amet
-            </p>
-            <p
-              className={`${style.comment} font_main_regular dark-colored-text`}
-            >
-              #music #concert #conference #london #event #artist #dj #soundtrack
-              #dance
+            <p className={`${style.tag} font_main_regular dark-colored-text`}>Lorem Ipsum Amet</p>
+            <p className={`${style.comment} font_main_regular dark-colored-text`}>
+              #music #concert #conference #london #event #artist #dj #soundtrack #dance
             </p>
           </figcaption>
         </figure>
@@ -73,14 +63,9 @@ const Gallery = () => {
                 <h5 className="font_h5_headline dark-colored-text">140</h5>
               </li>
             </ul>
-            <p className={`${style.tag} font_main_regular dark-colored-text`}>
-              Lorem Ipsum Amet
-            </p>
-            <p
-              className={`${style.comment} font_main_regular dark-colored-text`}
-            >
-              #music #concert #conference #london #event #artist #dj #soundtrack
-              #dance
+            <p className={`${style.tag} font_main_regular dark-colored-text`}>Lorem Ipsum Amet</p>
+            <p className={`${style.comment} font_main_regular dark-colored-text`}>
+              #music #concert #conference #london #event #artist #dj #soundtrack #dance
             </p>
           </figcaption>
         </figure>
@@ -97,14 +82,9 @@ const Gallery = () => {
                 <h5 className="font_h5_headline dark-colored-text">140</h5>
               </li>
             </ul>
-            <p className={`${style.tag} font_main_regular dark-colored-text`}>
-              Lorem Ipsum Amet
-            </p>
-            <p
-              className={`${style.comment} font_main_regular dark-colored-text`}
-            >
-              #music #concert #conference #london #event #artist #dj #soundtrack
-              #dance
+            <p className={`${style.tag} font_main_regular dark-colored-text`}>Lorem Ipsum Amet</p>
+            <p className={`${style.comment} font_main_regular dark-colored-text`}>
+              #music #concert #conference #london #event #artist #dj #soundtrack #dance
             </p>
           </figcaption>
         </figure>
@@ -121,14 +101,9 @@ const Gallery = () => {
                 <h5 className="font_h5_headline dark-colored-text">140</h5>
               </li>
             </ul>
-            <p className={`${style.tag} font_main_regular dark-colored-text`}>
-              Lorem Ipsum Amet
-            </p>
-            <p
-              className={`${style.comment} font_main_regular dark-colored-text`}
-            >
-              #music #concert #conference #london #event #artist #dj #soundtrack
-              #dance
+            <p className={`${style.tag} font_main_regular dark-colored-text`}>Lorem Ipsum Amet</p>
+            <p className={`${style.comment} font_main_regular dark-colored-text`}>
+              #music #concert #conference #london #event #artist #dj #soundtrack #dance
             </p>
           </figcaption>
         </figure>

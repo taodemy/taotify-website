@@ -25,8 +25,7 @@ const fontClasses = {
   font_hero_background: montserrat.className + " font_hero_background",
   font_hero_button: montserrat.className + " font_hero_button",
   font_get_started_h2: montserrat.className + " font_get_started_h2",
-  font_get_started_content_title:
-    montserrat.className + " font_get_started_content_title",
+  font_get_started_content_title: montserrat.className + " font_get_started_content_title",
   font_get_started_content_title_blue:
     montserrat.className + " font_get_started_content_title_blue",
   font_get_started_content_p: raleway.className + " font_get_started_content_p",
@@ -34,10 +33,8 @@ const fontClasses = {
     montserrat.className + " font_get_started_button_watch_video_text",
   font_testimonials_title: montserrat.className + " font_testimonials_title",
   font_testimonial_card_text: raleway.className + " font_testimonial_card_text",
-  font_testimonial_card_user_name:
-    montserrat.className + " font_testimonial_card_user_name",
-  font_testimonial_card_user_url:
-    raleway.className + " font_testimonial_card_user_url",
+  font_testimonial_card_user_name: montserrat.className + " font_testimonial_card_user_name",
+  font_testimonial_card_user_url: raleway.className + " font_testimonial_card_user_url",
 };
 
 export default fontClasses;
