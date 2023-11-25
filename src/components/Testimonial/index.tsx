@@ -34,11 +34,10 @@ function index() {
               </div>
               <div className={style.testimonial_card_text}>
                 <p className={fontClasses.font_testimonial_card_text}>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry&apos;s
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book.
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                  Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when
+                  an unknown printer took a galley of type and scrambled it to make a type specimen
+                  book.
                 </p>
               </div>
               <svg
@@ -69,12 +68,8 @@ function index() {
                 alt="testimonial left"
               />
               <div className={style.testimonial_card_user_name_group}>
-                <div className={fontClasses.font_testimonial_card_user_name}>
-                  Ellie James
-                </div>
-                <div className={fontClasses.font_testimonial_card_user_url}>
-                  ipsum.com
-                </div>
+                <div className={fontClasses.font_testimonial_card_user_name}>Ellie James</div>
+                <div className={fontClasses.font_testimonial_card_user_url}>ipsum.com</div>
               </div>
             </div>
           </div>
@@ -106,11 +101,10 @@ function index() {
               </div>
               <div className={style.testimonial_card_text}>
                 <p className={fontClasses.font_testimonial_card_text}>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry&apos;s
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book.
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                  Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when
+                  an unknown printer took a galley of type and scrambled it to make a type specimen
+                  book.
                 </p>
               </div>
               <svg
@@ -141,12 +135,8 @@ function index() {
                 alt="testimonial middle"
               />
               <div className={style.testimonial_card_user_name_group}>
-                <div className={fontClasses.font_testimonial_card_user_name}>
-                  Johnny Doe
-                </div>
-                <div className={fontClasses.font_testimonial_card_user_url}>
-                  ipsum.com
-                </div>
+                <div className={fontClasses.font_testimonial_card_user_name}>Johnny Doe</div>
+                <div className={fontClasses.font_testimonial_card_user_url}>ipsum.com</div>
               </div>
             </div>
           </div>
@@ -178,11 +168,10 @@ function index() {
               </div>
               <div className={style.testimonial_card_text}>
                 <p className={fontClasses.font_testimonial_card_text}>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry&apos;s
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book.
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                  Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when
+                  an unknown printer took a galley of type and scrambled it to make a type specimen
+                  book.
                 </p>
               </div>
               <svg
@@ -213,12 +202,8 @@ function index() {
                 alt="testimonial right"
               />
               <div className={style.testimonial_card_user_name_group}>
-                <div className={fontClasses.font_testimonial_card_user_name}>
-                  Myne Barack
-                </div>
-                <div className={fontClasses.font_testimonial_card_user_url}>
-                  ipsum.com
-                </div>
+                <div className={fontClasses.font_testimonial_card_user_name}>Myne Barack</div>
+                <div className={fontClasses.font_testimonial_card_user_url}>ipsum.com</div>
               </div>
             </div>
           </div>

@@ -23,9 +23,7 @@ const LeftContactUs = () => {
   ];
 
   return (
-    <section
-      className={style.contactus_section_left + " primary-colored-background"}
-    >
+    <section className={style.contactus_section_left + " primary-colored-background"}>
       <div className={style.contactus_left_content}>
         <h2 className="font_h2_headline">Contact us</h2>
         <p className="font_subtitle_regular light-colored-text-with-opacity">
@@ -36,9 +34,7 @@ const LeftContactUs = () => {
             return (
               <li key={index}>
                 {obj.icon}
-                <h5 className="font_h5_headline light-colored-text">
-                  {obj.content}
-                </h5>
+                <h5 className="font_h5_headline light-colored-text">{obj.content}</h5>
               </li>
             );
           })}

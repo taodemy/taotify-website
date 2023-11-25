@@ -10,24 +10,17 @@ function index() {
           <h1 className={fontClasses.font_get_started_content_title}>
             Your Ultimate Destination for Seamless
           </h1>
-          <span className={fontClasses.font_get_started_content_title_blue}>
-            Music&nbsp;
-          </span>
-          <span className={fontClasses.font_get_started_content_title}>
-            Streaming
-          </span>
+          <span className={fontClasses.font_get_started_content_title_blue}>Music&nbsp;</span>
+          <span className={fontClasses.font_get_started_content_title}>Streaming</span>
         </div>
 
         <p className={fontClasses.font_get_started_content_p}>
-          TAOTIFY, Immerse Yourself in a World of Music with Our Intuitive and
-          Stylish Streaming Platform. Discover, Play, and Share Your Favorite
-          Tunes Effortlessly.
+          TAOTIFY, Immerse Yourself in a World of Music with Our Intuitive and Stylish Streaming
+          Platform. Discover, Play, and Share Your Favorite Tunes Effortlessly.
         </p>
         <div className={style.get_started_button_group}>
           <button className={style.get_started_button}>
-            <span
-              className={fontClasses.font_get_started_button_watch_video_text}
-            >
+            <span className={fontClasses.font_get_started_button_watch_video_text}>
               Get Started
             </span>
           </button>
@@ -51,21 +44,13 @@ function index() {
                 </clipPath>
               </defs>
             </svg>
-            <span
-              className={fontClasses.font_get_started_button_watch_video_text}
-            >
+            <span className={fontClasses.font_get_started_button_watch_video_text}>
               Watch Video
             </span>
           </button>
         </div>
       </div>
-      <div
-        className={
-          style.get_started_background_title +
-          " " +
-          fontClasses.font_get_started_h2
-        }
-      >
+      <div className={style.get_started_background_title + " " + fontClasses.font_get_started_h2}>
         TAOTIFY MUSIC & LIFE
       </div>
     </section>

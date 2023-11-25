@@ -17,10 +17,7 @@ export default function HeroTwo() {
   return (
     <section className={style.hero_outter_wrapper}>
       <div className={style.hero_inner_wrapper}>
-        <div
-          style={openSans.style}
-          className={style.hero_background_text + " light-colored-text"}
-        >
+        <div style={openSans.style} className={style.hero_background_text + " light-colored-text"}>
           <p className={style.text_first_line}>UI MUSIC</p>
           <p className={style.text_second_line}>NEWWAY</p>
         </div>
@@ -30,9 +27,7 @@ export default function HeroTwo() {
             <Bg2SVG className={style.front_inner_image} />
             <div
               className={
-                fontClasses.h1_headline_bold +
-                "light-colored-text " +
-                style.front_inner_slogan
+                fontClasses.h1_headline_bold + "light-colored-text " + style.front_inner_slogan
               }
             >
               <p>Taotify.</p>
@@ -52,10 +47,7 @@ export default function HeroTwo() {
               <p>Enjoy Life</p>
               <p>Enjoy Mysic</p>
             </div>
-            <div
-              style={roboto.style}
-              className={style.inner_main_text + " primary-colored-text"}
-            >
+            <div style={roboto.style} className={style.inner_main_text + " primary-colored-text"}>
               <p>5000Followers +</p>
               <p>On May</p>
             </div>
