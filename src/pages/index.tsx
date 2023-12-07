@@ -9,10 +9,13 @@ import style from "./index.module.scss";
 import HeroFirst from "@/components/HeroFirst";
 import Gallery from "@/components/Gallery";
 import GetStarted from "@/components/GetStarted/index";
-
 import Sponsor from "@/components/Sponsor";
-
 import Testimonial from "@/components/Testimonial/index";
+import {Swiper, SwiperSlide} from "swiper/react";
+import { Navigation} from 'swiper/modules';
+import SwiperCore from "swiper/core";
+
+SwiperCore.use([Navigation]);
 
 export default function Home() {
   return (
@@ -25,19 +28,21 @@ export default function Home() {
       </Head>
       <main className={style.page_layout}>
         <Navigator />
-        <HeroTwo />
-        <HeroFirst />
+        <Swiper navigation loop={true} style={{width:"100%"}}>
+          <SwiperSlide>
+            <HeroTwo />
+          </SwiperSlide>
+          <SwiperSlide>
+            <HeroFirst />
+          </SwiperSlide>
+        </Swiper>
         <Categories />
         <GetStarted />
         <Singers />
         <PriceTier />
-
         <Sponsor />
-
         <Gallery />
-
         <Testimonial />
-
         <Footer />
       </main>
     </>
