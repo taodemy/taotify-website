@@ -1,9 +1,11 @@
-import Head from "next/head";
-import "@/styles/tailwind-globals.css";
-import "@/styles/globals.css";
-import "@/styles/global-background-color.scss";
-import "@/styles/global-font-style.scss";
-import "@/styles/global-text-color.scss";
+import Head from 'next/head';
+import '@/styles/tailwind-globals.css';
+import '@/styles/globals.css';
+import "@/styles/global-background-color.scss"
+import "@/styles/global-font-style.scss"
+import "@/styles/global-text-color.scss"
+import "swiper/css";
+import "swiper/css/navigation";
 
 import type { AppProps } from "next/app";
 
